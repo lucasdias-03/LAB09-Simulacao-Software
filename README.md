@@ -1,18 +1,18 @@
-# 🗂️ Sistema Task Manager
+# Sistema Task Manager
 
 Um pequeno sistema de **gerenciamento de tarefas** desenvolvido para fins acadêmicos.  
 O projeto tem como objetivo demonstrar conceitos de modularização, testes automatizados e boas práticas de código em Python.
 
 ---
 
-## 📘 Descrição Geral
+## Descrição Geral
 
 O **Task Manager** permite criar, listar, atualizar e remover tarefas, cada uma contendo título, descrição, prioridade, prazo e status.  
 O armazenamento é feito em memória (via `InMemoryStorage`), simulando um pequeno banco de dados temporário.
 
 ---
 
-## 🧩 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 task_manager/
@@ -43,7 +43,7 @@ tests/
 
 ---
 
-## 🧠 Principais Classes
+## Principais Classes
 
 ### `Task`
 Representa uma tarefa individual, com métodos de validação de dados (como título e prazo).
@@ -71,7 +71,7 @@ Camada de serviço que centraliza a criação, listagem e atualização de statu
 
 ---
 
-## 🧪 Testes Automatizados
+## Testes Automatizados
 
 Os testes foram desenvolvidos com **pytest** e **pytest-mock**, cobrindo:
 - Validação de título e prazo (`test_task.py`)
@@ -85,7 +85,7 @@ pytest -v
 
 ---
 
-## 🧰 Instalação e Execução
+## Instalação e Execução
 
 1. Clone este repositório:
    ```bash
@@ -105,7 +105,7 @@ pytest -v
 
 ---
 
-## 🧾 Requisitos
+## Requisitos
 
 - Python 3.10+
 - pytest==7.4.0  
@@ -113,7 +113,7 @@ pytest -v
 
 ---
 
-## 👨‍💻 Autores
+## Autores
 
 Desenvolvido para fins acadêmicos no contexto de aprendizado de **testes unitários e design modular em Python**.
 
