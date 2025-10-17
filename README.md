@@ -35,11 +35,11 @@ tests/
 
 ## ⚙️ Funcionalidades
 
-- ✅ Criar tarefas com **título**, **descrição**, **prioridade** e **prazo**
-- 📋 Listar todas as tarefas
-- 🔍 Buscar tarefa por **ID**
-- 🔄 Atualizar o **status** de uma tarefa
-- ❌ Deletar tarefas
+- Criar tarefas com **título**, **descrição**, **prioridade** e **prazo**
+- Listar todas as tarefas
+- Buscar tarefa por **ID**
+- Atualizar o **status** de uma tarefa
+- Deletar tarefas
 
 ---
 
